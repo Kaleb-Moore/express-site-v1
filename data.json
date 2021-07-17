@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kaleb-moore.github.io/random-quote-generator-v1/",
             "github_link": "https://github.com/Kaleb-Moore/random-quote-generator-v1",
-            "image_urls": ["/static/images/01Random-Quote-Generator/Photo-1.PNG", "/images/01Random-Quote-Generator/Photo-2.PNG", "/images/01Random-Quote-Generator/Photo-3.PNG"]
+            "image_urls": ["/static/images/01Random-Quote-Generator/Photo-1.PNG", "/static/images/01Random-Quote-Generator/Photo-2.PNG", "/static/images/01Random-Quote-Generator/Photo-3.PNG", "/static/images/01Random-Quote-Generator/Photo-4.PNG"]
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kaleb-moore.github.io/data-pagination-v1/",
             "github_link": "https://github.com/Kaleb-Moore/data-pagination-v1",
-            "image_urls": ["/images/02Data-Pagination/Photo-1.PNG", "/images/02Data-Pagination/Photo-2.PNG", "/images/02Data-Pagination/Photo-3.PNG"]
+            "image_urls": ["/static/images/02Data-Pagination/Photo-1.PNG", "/static/images/02Data-Pagination/Photo-2.PNG", "/static/images/02Data-Pagination/Photo-3.PNG", "/static/images/02Data-Pagination/Photo-4.PNG"]
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kaleb-moore.github.io/interactive-form-v1/",
             "github_link": "https://github.com/Kaleb-Moore/interactive-form-v1",
-            "image_urls": ["/images/03Interactive-Form/Photo-1.PNG", "/images/03Interactive-Form/Photo-2.PNG", "/images/03Interactive-Form/Photo-3.PNG", "/images/03Interactive-Form/Photo-4.PNG", "/images/03Interactive-Form/Photo-5.PNG", "/images/03Interactive-Form/Photo-6.PNG"]
+            "image_urls": ["/static/images/03Interactive-Form/Photo-1.PNG", "/static/images/03Interactive-Form/Photo-2.PNG", "/static/images/03Interactive-Form/Photo-3.PNG", "/static/images/03Interactive-Form/Photo-4.PNG"]
         },
         {
             "id": 4,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kaleb-moore.github.io/oop-game-v1/",
             "github_link": "https://github.com/Kaleb-Moore/oop-game-v1",
-            "image_urls": ["/images/04OOP-Game/Photo-1.PNG", "/images/04OOP-Game/Photo-2.PNG", "/images/04OOP-Game/Photo-3.PNG", "/images/04OOP-Game/Photo-4.PNG", "/images/04OOP-Game/Photo-5.PNG"]
+            "image_urls": ["/static/images/04OOP-Game/Photo-1.PNG", "/static/images/04OOP-Game/Photo-2.PNG", "/static/images/04OOP-Game/Photo-3.PNG", "/static/images/04OOP-Game/Photo-4.PNG"]
         },
         {
             "id": 5,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kaleb-moore.github.io/public-api-request-v1/",
             "github_link": "https://github.com/Kaleb-Moore/public-api-request-v1",
-            "image_urls": ["/images/05Public-API-Request/Photo-1.PNG", "/images/05Public-API-Request/Photo-2.PNG", "/images/05Public-API-Request/Photo-3.PNG", "/images/05Public-API-Request/Photo-4.PNG", "/images/05Public-API-Request/Photo-5.PNG"]
+            "image_urls": ["/static/images/05Public-API-Request/Photo-1.PNG", "/static/images/05Public-API-Request/Photo-2.PNG", "/static/images/05Public-API-Request/Photo-3.PNG", "/static/images/05Public-API-Request/Photo-4.PNG"]
         }
     ]
 }
