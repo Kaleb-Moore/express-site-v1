@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://kaleb-moore.github.io/random-quote-generator-v1/",
             "github_link": "https://github.com/Kaleb-Moore/random-quote-generator-v1",
-            "image_urls": ["/images/01Random-Quote-Generator/Photo-1.PNG", "/images/01Random-Quote-Generator/Photo-2.PNG", "/images/01Random-Quote-Generator/Photo-3.PNG"]
+            "image_urls": ["/static/images/01Random-Quote-Generator/Photo-1.PNG", "/images/01Random-Quote-Generator/Photo-2.PNG", "/images/01Random-Quote-Generator/Photo-3.PNG"]
         },
         {
             "id": 2,
