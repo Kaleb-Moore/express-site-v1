@@ -1,30 +1,25 @@
+//Imports and sets up Express
 const express = require('express');
-const router = express.Router();
-const path = require('path');
-const { projects } = require('./data.json');
-
 const app = express();
+const mainRoutes = require('./routes/mainRoutes')
+const errorRoutes = require('./routes/error');
 
-app.set('views', path.join(__dirname, 'views'));
+//Sets Pug as the view engine
 app.set('view engine', 'pug');
+
+//Serves static files to express at /static
 app.use('/static', express.static('public'))
 
- app.get('/', (req, res, next) => {
-     res.locals = projects;
-     res.render('index', { projects });
- });
+//Handles routes for Homepage, about, and projects
+app.use(mainRoutes);
 
-app.get('/about', (req, res, next) => {
-    res.render('about')
-});
+//Handles 404 errors
+app.use(errorRoutes.fourOneFourHandler);
 
-app.get('/projects/:id', (req, res, next) => {
-const projectId = req.params.id;
-const project = projects.find( ({ id }) => id === +projectId );
+//Handles global errors
+app.use(errorRoutes.globalHandler);
 
-res.render('project', { project });
-});
-
+//Listens for app on port 3000
 app.listen(3000, () => {
     console.log("Port Listening on localhost:3000");
 });
