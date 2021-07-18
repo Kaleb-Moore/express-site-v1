@@ -1,8 +1,8 @@
 .thumbnail:hover {
     position:relative;
-    top:-10px;
-    left:-5px;
-    width:355px;
+    top:-5px;
+    left: 1px;
+    width:345px;
 }
 
 .dev-intro-box a:hover {
