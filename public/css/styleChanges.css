@@ -1,6 +1,6 @@
 .thumbnail:hover {
     position:relative;
-    top:-5px;
+    top:-10px;
     left:-5px;
     width:355px;
 }
