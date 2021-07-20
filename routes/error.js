@@ -8,6 +8,7 @@ function globalHandler(err, req, res, next) {
     if(err.status === 404) {
         res.status(404);
         res.render('page-not-found', { err });
+        console.log('Page not found', err);
     } else {
         err.message = err.message || "Something went wrong!";
         res.status(err.status || 500);
